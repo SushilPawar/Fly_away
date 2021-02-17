@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.flyaway">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/globe"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/globe"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FlyAway">
+        <activity android:name=".Forgot_Password" android:theme="@style/custome"></activity>
+        <activity
+            android:name=".Update_password"
+            android:theme="@style/custome" />
+        <activity
+            android:name=".Update_profile"
+            android:theme="@style/custome" />
+        <activity
+            android:name=".Ticket_summary"
+            android:theme="@style/custome" />
+        <activity
+            android:name=".Seat_selection"
+            android:theme="@style/custome" />
+        <activity
+            android:name=".Dashboard"
+            android:theme="@style/custome" />
+        <activity
+            android:name=".Username_password"
+            android:theme="@style/custome" />
+        <activity
+            android:name=".Register_page"
+            android:theme="@style/custome" />
+        <activity
+            android:name=".Login_page"
+            android:theme="@style/custome" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/custome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

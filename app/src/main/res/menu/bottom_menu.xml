@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/book_flight"
+    android:title="Booking"
+    android:icon="@drawable/ic_baseline_flight_takeoff_24"/>
+
+    <item android:id="@+id/history"
+        android:title="History"
+        android:icon="@drawable/ic_baseline_history_24"/>
+
+    <item android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:id="@+id/profile"/>
+</menu>
